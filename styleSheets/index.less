@@ -1,0 +1,57 @@
+
+/*样式初始化*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body,main{
+  width: 100%;
+  height: 100%;
+}
+body{
+  background:  #474747;
+  color: @font-colorA;
+  font-size: 18px;
+}
+
+/*表格样式*/
+main{
+  width: 100%;
+  height: 100%;
+  table.table {
+    margin-bottom: 35px;
+    padding-top: 30px;
+    thead,tfoot{
+      background: #343434;
+    }
+    tbody{
+      background: #474747;
+      .checked{
+        background: @font-colorA;
+        color: #333;
+      }
+    }
+  }
+}
+
+/*图形*/
+article.container{
+  width: 100%;
+  height: auto;
+  padding: 0;
+  section.row{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    #cylGraph,#pieChart{
+      height: 550px;
+    }
+  }
+}
+//@media (max-width:768px) {
+//  article.container section.row div{
+//    width: 100%;
+//  }
+//}
+
